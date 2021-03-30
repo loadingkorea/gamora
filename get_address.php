@@ -10,10 +10,10 @@ header("Content-Type: text/html; charset=UTF-8");
                 // userSelectedType : 검색 결과에서 사용자가 선택한 주소의 타입
                 // return type : R - roadAddress, J : jibunAddress
                 // TestApp 은 안드로이드에서 등록한 이름
-                window.DallaGo.setAddress(data.zonecode, data.roadAddress, data.buildingName);
+                window.Gamora.setAddress(data.zonecode, data.roadAddress, data.buildingName);
             }
             else{
-                window.DallaGo.setAddress(data.zonecode, data.jibunAddress, data.buildingName);
+                window.Gamora.setAddress(data.zonecode, data.jibunAddress, data.buildingName);
             }
         }
     }).open();
