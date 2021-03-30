@@ -30,13 +30,13 @@
     oncomplete: function(data) {
       if(data.userSelectedType=="R"){
         if(data.autoJibunAddress) {
-                window.DallaGo.setAddress(data.zonecode, data.autoJibunAddress, data.buildingName);
+                window.Gamora.setAddress(data.zonecode, data.autoJibunAddress, data.buildingName);
         } else {
-                window.DallaGo.setAddress(data.zonecode, data.jibunAddress, data.buildingName);
+                window.Gamora.setAddress(data.zonecode, data.jibunAddress, data.buildingName);
         }
       }
       else{
-        window.DallaGo.setAddress(data.zonecode, data.jibunAddress, data.buildingName);
+        window.Gamora.setAddress(data.zonecode, data.jibunAddress, data.buildingName);
       }
  
     },
